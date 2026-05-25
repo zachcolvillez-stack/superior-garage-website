@@ -10,10 +10,8 @@ const tiles = [
   { label: "On the hoist", src: "/images/hyundai-hoist.jpg" },
   { label: "Skyline in for work", src: "/images/skyline-workshop.webp" },
   { label: "Detailed finish", src: "/images/hero.webp" },
-  // Team photo not supplied yet — replace src with /images/team.jpg when ready.
-  { label: "Team photo", src: null },
-  // Extra slot for a future photo — replace src with /images/<name> when ready.
-  { label: "More coming soon", src: null },
+  { label: "Mercedes AMG C63", src: "/images/mercedes.jpg" },
+  { label: "Land Cruiser 79", src: "/images/landcruiser.jpg" },
 ];
 
 export default function Gallery() {
