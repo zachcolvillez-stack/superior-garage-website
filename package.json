@@ -1,0 +1,23 @@
+{
+  "name": "superior-garage",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS=--max-old-space-size=1536 next dev --webpack -p 3030",
+    "build": "cross-env NODE_OPTIONS=--max-old-space-size=2048 next build",
+    "start": "next start -p 3030"
+  },
+  "dependencies": {
+    "lucide-react": "^0.441.0",
+    "next": "^16.2.6",
+    "react": "^18",
+    "react-dom": "^18",
+    "resend": "^4.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "cross-env": "^7.0.3",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+  }
+}
