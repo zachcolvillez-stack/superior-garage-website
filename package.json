@@ -8,6 +8,7 @@
     "start": "next start -p 3030"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "lucide-react": "^0.441.0",
     "next": "^16.2.6",
     "react": "^18",
