@@ -33,7 +33,10 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en-AU">
-      <body className="bg-ink-950 text-white antialiased">{children}</body>
+      <body className="bg-ink-950 text-white antialiased">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
